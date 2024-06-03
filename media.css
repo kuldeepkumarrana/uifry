@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+    .width{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 426px) {
+    .second_sec{
+        flex-direction: column-reverse;
+    }
+    .faq img{
+        padding-bottom: 0;
+    }
+    .banner_btn{
+        margin-bottom: 10px;
+    }
+    .features_sec h1 {
+        font-size: 47px;
+    }
+    .borderbot div{
+        width: 50% !important;
+    }
+}
+@media screen and (max-width: 321px) {
+    .borderbot div{
+        width: 100% !important;
+    }
+    .borderbot div:first-child{
+        width: 50% !important;
+    }
+}

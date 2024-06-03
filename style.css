@@ -1,0 +1,314 @@
+.header_btn{
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+.paddingtopbot{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.bac_img{
+    background-image: url("/images/textbacground.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position-y: -400px; */
+    padding-top: 100px;
+}
+.heading{
+    /* font-family: clash Display; */
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    padding-bottom: 24px;
+}
+.banner_btn{
+    padding: 16px 23px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.banner_btn i{
+    padding-left: 10px;
+}
+.watch_btn{
+    text-decoration: none;
+    color: black;
+    font-family: Clash Display;
+    font-weight: 700;
+}
+.watch_btn i{
+    padding-right: 10px;
+}
+.heading +p{
+    /* font-family: Clash Display; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 24px;
+}
+.align:last-child img{
+    padding-top: 16px;
+}
+.features_sec h5{
+   text-transform: uppercase;
+   color: red;
+   letter-spacing: 4px;
+}
+.features_sec h1{
+    font-size: 48px;
+    font-family: Clash Display;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.list img{
+    padding-right: 15px;
+}
+.list li{
+    font-size: 24px;
+    font-family: Clash Display;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 0 10px 0;
+}
+.list1 li img{
+    filter: grayscale(100%);
+}
+.list1 li:first-child img{
+    filter: inherit;
+}
+.list p{
+    font-size: 18px;
+    font-family: Clash Display;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 1);
+}
+.list_column{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+}
+.third_sec{
+    padding: 20px 0 20px 0;
+}
+.third_sec .row{
+    padding: 0 0 20px 0;
+}
+.third_sec .row h5{
+    font-family: Clash Display;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+
+}
+.third_sec p{
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+.direction-reverse{
+    flex-direction: row-reverse;
+}
+.width{
+    width: 1090px !important;
+    margin: auto;
+}
+.margin_auto{
+    margin-right: 0 !important;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial h5{
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
+.testimonial h1{
+    font-family: Clash Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.fourth_sec h4{
+    font-family: Clash Display;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+}
+.align{
+    align-items: center;
+}
+.name{
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+}
+.faq img{
+    padding-bottom: 112px;
+}
+.faq div:nth-child(odd){
+    background-color: rgba(255, 85, 85, 1);
+    padding: 30px;
+    border-radius: 8px;
+    margin: 40px 0 40px 0;
+}
+.faq div:nth-child(even){
+    padding: 30px;
+}
+.faq div:nth-child(odd) h4{
+    font-family: Clash Display;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+.faq div:nth-child(even) h4{
+    font-family: Clash Display;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: black;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+.faq div:nth-child(odd) p{
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+}
+.faq div:nth-child(even) p{
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: justified;
+    color: black;
+}
+.bacgroundImg{
+    background-image: url("/images/bacground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.red_img{
+    position: absolute;
+    top: -152px;
+    left: -156px;
+    z-index: -1;
+}
+.last_section h4{
+    font-family: Clash Display;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+}
+.last_section p{
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+}
+.last_section button{
+    padding: 14px 22px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    font-weight: 600;
+    align-items: center;
+}
+.last_section button i{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.footer_menu h1{
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.footer_menu ul{
+    padding: 0;
+}
+.footer_menu ul li{
+   list-style-type: none;
+   padding: 5px 0 5px 0;
+}
+.footer_menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+form{
+    display: flex;
+}
+form input{
+    border: none;
+    width: 120px;
+}
+form button{
+    padding: 18px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.borderbot{
+    border-bottom: 1px solid black;
+}
+.post_footer{
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    padding: 20px 0 40px 0 ;
+
+}
+.padding-top{
+    padding-top: 10px;
+}
